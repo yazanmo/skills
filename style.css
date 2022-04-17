@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0; 
+	box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 50px;
+}
+
+.progress{
+    display: grid;
+    gap: 20px;
+}
